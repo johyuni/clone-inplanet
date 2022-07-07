@@ -1,0 +1,30 @@
+
+/* 공통 */
+.inner-wrap {}
+
+
+/* 헤더 */
+header .inner-wrap {padding:0 2.60417vw; height:4.89583vw; display:flex; justify-content:space-between; align-items:flex-end;}
+header .inner-wrap .logo-cover {}
+header .inner-wrap .logo-cover .logo {}
+header .inner-wrap .logo-cover .logo img {}
+header .inner-wrap .nav-list {display:flex; align-items:flex-end;}
+header .inner-wrap .nav-list .list-item:not(:last-child) {margin-right:1.25vw;}
+header .inner-wrap .nav-list .list-item a {display:block; font-size:0.9375vw; font-weight:700; color:rgba(255, 255, 255, 0.7);}
+
+/* 메인 */
+.main {}
+.main .inner-wrap {}
+.main .inner-wrap .gallery-list {}
+.main .inner-wrap .gallery-list {height:100vh;}
+.main .inner-wrap .gallery-list .list-item {}
+.main .inner-wrap .gallery-list .list-item .text-cover {}
+.main .inner-wrap .gallery-list .list-item .text-cover .text-sub {}
+.main .inner-wrap .gallery-list .list-item .text-cover .text-title {}
+.main .inner-wrap .gallery-list .list-item .img-cover {}
+.main .inner-wrap .gallery-list .list-item .img-cover img {}
+
+.main .inner-wrap .button-cover {}
+.main .inner-wrap .button-cover .button-swiper-next {}
+.main .inner-wrap .button-cover .button-swiper-prev {}
+
