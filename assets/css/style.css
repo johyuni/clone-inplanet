@@ -44,19 +44,22 @@ header .inner-wrap .nav-cover .btn-download i {margin-left:8px; color:#fff;}
 .main .inner-wrap .gallery-list .list-item .img-cover .img-main {object-fit:cover; display:block; width:100%; height:100%; background-position:50% 50%; background-repeat:no-repeat;} 
 
 /* 컨텐츠 */
-.content {padding:9.375vw 17.70833vw 12.8125vw;}
-.content .inner-wrap {padding:0;}
-.content .inner-wrap .tex-cover {}
-.content .inner-wrap .tex-cover + .tex-cover {margin-top:4.16667vw;}
-.content .inner-wrap .tex-cover .tex-title {font-size:4.16667vw; color:#222; line-height:1.2;}
-.content .inner-wrap .tex-cover .tex-title strong {font-weight:700;}
-.content .inner-wrap .tex-cover .tex-title + .tex-sub {margin-top:0.83333vw;}
-.content .inner-wrap .tex-cover .tex-sub {margin-top:0.20833vw; font-size:1.04167vw;}
-.content .inner-wrap .tex-cover .tex-detail {font-size:0.9375vw; line-height:166.66667%; color:#666;}
-.content .inner-wrap .device-list {margin-top:5.20833vw; display:flex;}
-.content .inner-wrap .device-list .list-item:not(:first-child) {margin-left:1.25vw;}
-.content .inner-wrap .device-list .list-item .icon {display:inline-block; width:1.66667vw; height:1.875vw;}
-.content .inner-wrap .device-list .list-item .icon::before {content:''; display:block; width:100%; height:100%; background-repeat:no-repeat; background-position:50% 50%; background-size:contain; background-image: url(../images/icon_mobile.svg);}
+.content {}
+.content .con-box {}
+.content .con-box .con-head {padding:9.375vw 17.70833vw 12.8125vw;}
+.content .con-box .con-head .tex-cover {}
+.content .con-box .con-head .tex-cover + .tex-cover {margin-top:4.16667vw;}
+.content .con-box .con-head .tex-cover .tex-title {font-size:4.16667vw; color:#222; line-height:1.2;}
+.content .con-box .con-head .tex-cover .tex-title strong {font-weight:700;}
+.content .con-box .con-head .tex-cover .tex-title + .tex-sub {margin-top:0.83333vw;}
+.content .con-box .con-head .tex-cover .tex-sub {margin-top:0.20833vw; font-size:1.04167vw;}
+.content .con-box .con-head .tex-cover .tex-detail {font-size:0.9375vw; line-height:166.66667%; color:#666;}
+.content .con-box .con-head .device-list {margin-top:5.20833vw; display:flex;}
+.content .con-box .con-head .device-list .list-item:not(:first-child) {margin-left:1.25vw;}
+.content .con-box .con-head .device-list .list-item .icon {display:inline-block; width:1.66667vw; height:1.875vw;}
+.content .con-box .con-head .device-list .list-item .icon::before {content:''; display:block; width:100%; height:100%; background-repeat:no-repeat; background-position:50% 50%; background-size:contain; background-image: url(../images/icon_mobile.svg);}
 
-
+.content .con-box .con-body {}
+.content .con-box .con-body .img-cover {}
+.content .con-box .con-body .img-cover .img-con {display:block; width:100%;}
 
